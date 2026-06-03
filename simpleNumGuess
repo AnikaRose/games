@@ -1,0 +1,17 @@
+import java.util.*;
+public class simpleNumGuess{
+public static void main (String[]args){
+    Scanner scan = new Scanner(System.in);
+    Random gen = new Random();
+    System.out.println("Enter a number between 1 to 100: ");
+    int n = scan.nextInt();
+    
+int m = gen.nextInt(100)+1;
+if (n==m)
+    System.out.println("Bravo! You win");
+else
+    System.out.println("Try again. The number was " +m );
+    
+}
+}
+
