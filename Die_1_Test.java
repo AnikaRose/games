@@ -28,8 +28,6 @@ public class Die_1_Test {
       if (face1 == 1 && face2 == 1)
         count++;
     }
-    
     return count;
-  }
-  
+  }  
 }
