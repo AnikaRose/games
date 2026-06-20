@@ -1,6 +1,4 @@
-/**
- * Auto Generated Java Class.
- */
+
 import java.util.*;
 
 public class Die_1_Test {
