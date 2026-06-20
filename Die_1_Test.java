@@ -1,10 +1,7 @@
-
 import java.util.*;
 
-public class Die_1_Test {
-  
-  static Random rand = new Random();
-  
+public class Die_1_Test {  
+  static Random rand = new Random();  
   
   public static void main(String[] args) {
     
@@ -13,9 +10,9 @@ public class Die_1_Test {
     int side1 = scan.nextInt();
     int side2 = scan.nextInt();
     int numThrow = scan.nextInt();
+    
     System.out.println("Number of snake eyes :"+numSnakeEyes(side1, side2, numThrow));
   }
-   
   static int roll(int numSides) {
     return 1 + rand.nextInt(numSides);
   }
